@@ -1,8 +1,17 @@
 .homie {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: antiquewhite;
     padding-top: 5rem;
+}
 
+.newsPaper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(193, 173, 122);
+    background: linear-gradient(#000, #000) no-repeat center/2px 100% rgb(193, 173, 122);
+    width: 60rem;
+}
+
+.title {
+    color: rgb(147, 144, 144);
+    
 }
