@@ -17,12 +17,16 @@
 }
 
 .blurb {
-    margin: 2rem;
-    background-color: aliceblue;
+    margin-top: 2rem;
+    width: 25rem;
+    font-family: "Times New Roman";
 }
 
 .h3 {
-    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    justify-content: center;
 }
 
 .twitBKG {
@@ -30,4 +34,13 @@
     margin-top: 2rem;
     width: 25rem;
     object-fit: scale-down;
+}
+
+.para {
+    font-weight: bold;
+}
+
+.spotify {
+    background-color: aliceblue;
+    width: 25rem;
 }
