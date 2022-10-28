@@ -8,20 +8,27 @@
 .newsPaper {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(193, 173, 122);
     width: 60rem;
     flex-direction: row;
-    justify-content: space-evenly
+    background-image: url('https://i.pinimg.com/564x/90/8b/34/908b34367bd87750adc62649590804b4.jpg');
+    background-size: cover;
+    justify-content: space-around;
+    border-radius: .5rem;
+    margin-bottom: .5rem;
 }
 
 .title {
-    color: rgb(147, 144, 144);
+    color: rgb(202, 202, 202);
 }
 
 .blurb {
     margin-top: 2rem;
-    width: 25rem;
+    width: 432px;
     font-family: "Times New Roman";
+}
+
+.spott {
+    display: flex;
 }
 
 .h3 {
@@ -31,18 +38,33 @@
     justify-content: center;
 }
 
+.h4 {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
 .twitBKG {
     display: flex;
     margin-top: 2rem;
     width: 25rem;
     object-fit: scale-down;
+    border-color: black;
+    border: .8rem;
+    border-style: solid;
+    border-radius: .5rem;
 }
 
 .para {
     font-weight: bold;
 }
 
-.spotify {
-    background-color: aliceblue;
-    width: 25rem;
+@media only screen and (min-width: 430px) {
+
+    .spott {
+        width: 50%;
+    }
+
+    /* .tweet {
+        width: 400px;
+    } */
 }
