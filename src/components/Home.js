@@ -2,12 +2,15 @@ import React from "react";
 import styles from "./Home.module.css";
 import twitBackground from "../images/twitter-background.jpg"
 
+
 function Home () {
 
   window.onSpotifyIframeApiReady = (IFrameAPI) => {
     let element = document.getElementById('embed-iframe');
     let options = {
-        uri: 'spotify:episode:7makk4oTQel546B0PZlDM5'
+      width: '45%',
+      height: '300',
+        uri: 'spotify:episode:2fI66ALYulJfKV56tEN86E'
       };
     let callback = (EmbedController) => {};
     IFrameAPI.createController(element, options, callback);
@@ -26,8 +29,8 @@ function Home () {
             <img src={twitBackground} alt="twitter background" className={styles.twitBKG}/>
           </div>
           <div id="embed-iframe">
-            {/* <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2fI66ALYulJfKV56tEN86E?utm_source=generator&theme=0" width="75%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}
-          </div>
+          </div> 
+          <a class="twitter-timeline" data-width="250" data-height="500" data-theme="dark" href="https://twitter.com/TTR110983?ref_src=twsrc%5Etfw">Tweets by TTR110983</a>
         </div>
       </div>
     </>
