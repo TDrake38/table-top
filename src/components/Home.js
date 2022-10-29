@@ -26,7 +26,7 @@ function Home () {
         <a href="https://open.spotify.com/show/4ggk2LZstPiXlDI870CMXG?si=8459761b71ea4dac"><img src={spotify32}/></a>
         <a href="https://twitter.com/TTR110983?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3ATTR110983%7Ctwcon%5Es2"><img src={twitter32}/></a>
         <a href="https://www.facebook.com/TTReporter"><img src={fb32}/></a>
-          <h1 className={styles.title} >The Table Top Reporter!</h1>
+          <h1 className={styles.title} >The Table Top Reporter</h1>
         </div>
         <div className={styles.newsPaper}>
           <div id="blurp" className={styles.blurb}>
