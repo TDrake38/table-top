@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./Home.module.css";
 import twitBackground from "../images/twitter-background.jpg"
 import spotify32 from "../images/spotify-32.png"
@@ -8,18 +8,40 @@ import fb32 from "../images/facebook-3-32.png"
 
 function Home () {
 
-  window.onSpotifyIframeApiReady = (IFrameAPI) => {
-    let element = document.getElementById('embed-iframe');
-    let options = {
-      // width: '51%',
-      // height: '300',
-      width: '90%',
-      height: '300',
-        uri: 'spotify:episode:2fI66ALYulJfKV56tEN86E'
+  const showSpott = () => {
+    if (window.innerWidth < 430) {
+      window.onSpotifyIframeApiReady = (IFrameAPI) => {
+        let element = document.getElementById('embed-iframe');
+        let options = {
+          //TODO: make it show if screen is this size show bigger one if small size show small one
+          width: '51%',
+          height: '300',
+          // width: '90%',
+          // height: '300',
+            uri: 'spotify:episode:2fI66ALYulJfKV56tEN86E'
+          };
+        let callback = (EmbedController) => {};
+        IFrameAPI.createController(element, options, callback);
       };
-    let callback = (EmbedController) => {};
-    IFrameAPI.createController(element, options, callback);
-  };
+   }
+   else {
+    window.onSpotifyIframeApiReady = (IFrameAPI) => {
+      let element = document.getElementById('embed-iframe');
+      let options = {
+        //TODO: make it show if screen is this size show bigger one if small size show small one
+        // width: '51%',
+        // height: '300',
+        width: '90%',
+        height: '300',
+          uri: 'spotify:episode:2fI66ALYulJfKV56tEN86E'
+        };
+      let callback = (EmbedController) => {};
+      IFrameAPI.createController(element, options, callback);
+    };
+   }
+  }
+
+  showSpott();
 
   return (
     <>
@@ -45,7 +67,10 @@ function Home () {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id.
             </p>
           </div> 
+
+          {/*TODO: make it show if screen is this size show bigger one if small size show small one*/}
           <a class="twitter-timeline" className={styles.tweet} data-width="800" data-height="500" data-theme="dark" href="https://twitter.com/TTR110983?ref_src=twsrc%5Etfw">Tweets by TTR110983</a>
+          {/* <a class="twitter-timeline" data-width="410" data-height="600" data-theme="dark" href="https://twitter.com/TTR110983?ref_src=twsrc%5Etfw">Tweets by TTR110983</a> */}
           <h4 className={styles.h4}>Thank you for visiting!</h4>
         </div>
       </div>
