@@ -11,6 +11,8 @@ function Home () {
   window.onSpotifyIframeApiReady = (IFrameAPI) => {
     let element = document.getElementById('embed-iframe');
     let options = {
+      // width: '51%',
+      // height: '300',
       width: '90%',
       height: '300',
         uri: 'spotify:episode:2fI66ALYulJfKV56tEN86E'
@@ -39,7 +41,7 @@ function Home () {
           <div id="embed-iframe" className={styles.spott}>
           </div>
           <div className={styles.secondBlurb}>
-            <p>
+            <p className={styles.para}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id.
             </p>
           </div> 

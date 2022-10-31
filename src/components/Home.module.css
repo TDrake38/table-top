@@ -27,8 +27,12 @@
     font-family: "Times New Roman";
 }
 
-.spott {
+.secondBlurb {
+    font-family: "Times New Roman";
     display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .h3 {
@@ -58,16 +62,20 @@
     font-weight: bold;
 }
 
+
 @media only screen and (max-width: 430px) {
-
-    .spott {
-        width: 50%;
-    }
-
 
     .para {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
+    }
+
+    .twitBKG {
+        margin-bottom: 1rem;
+    }
+
+    .secondBlurb {
+        width: 432px;
     }
 
     /* .tweet {
