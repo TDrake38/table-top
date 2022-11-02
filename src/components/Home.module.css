@@ -40,6 +40,11 @@
     font-family: "Times New Roman";
     font-weight: bold;
     justify-content: center;
+    text-decoration: underline;
+}
+
+.updateTitle {
+    text-decoration: underline;
 }
 
 .h4 {
