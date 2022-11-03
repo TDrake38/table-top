@@ -4,6 +4,7 @@ import twitBackground from "../images/twitter-background.jpg";
 import spotify32 from "../images/spotify-32.png";
 import twitter32 from "../images/twitter-32.png";
 import fb32 from "../images/facebook-3-32.png";
+import TweetFeed from "./Twitter";
 
 function Home() {
 
@@ -141,20 +142,8 @@ function Home() {
               to rest. The next four days of travel would determine their fate.
             </p>
           </div>
-          {/* <a id="twitter-link">
-          </a> */}
-          {/*TODO: make it show if screen is this size show bigger one if small size show small one*/}
-          <div id="twitter-link">
-            <a
-              class="twitter-timeline"
-              data-width="800"
-              data-height="500"
-              data-theme="dark"
-              href="https://twitter.com/TTR110983?ref_src=twsrc%5Etfw"
-            ></a>
-          </div>
-          {/* <a class="twitter-timeline" data-width="410" data-height="600" data-theme="dark" href="https://twitter.com/TTR110983?ref_src=twsrc%5Etfw"></a> */}
-          <h4 className={styles.h4}>Thank you for visiting!</h4>
+          <TweetFeed/>
+          {/* <h4 className={styles.h4}>Thank you for visiting!</h4> */}
         </div>
       </div>
     </>
