@@ -44,8 +44,29 @@
 }
 
 .updateTitle {
+    display: flex;
+    font-weight: bold;
     text-decoration: underline;
+    text-align: center;
 }
+
+/* a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(120, 24, 24);
+    background-color: transparent;
+    text-decoration: underline;
+} */
 
 .h4 {
     margin-top: .5rem;
