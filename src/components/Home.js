@@ -6,34 +6,34 @@ import twitter32 from "../images/twitter-32.png";
 import fb32 from "../images/facebook-3-32.png";
 
 function Home() {
-  // const showSpott = () => {
-  //   if (window.innerWidth < 430) {
-  //     window.onSpotifyIframeApiReady = (IFrameAPI) => {
-  //       let element = document.getElementById('embed-iframe');
-  //       let options = {
-  //         width: '51%',
-  //         height: '300',
-  //           uri: 'spotify:episode:2fI66ALYulJfKV56tEN86E'
-  //         };
-  //       let callback = (EmbedController) => {};
-  //       IFrameAPI.createController(element, options, callback);
-  //     };
-  //  }
-  //  else {
-  //   window.onSpotifyIframeApiReady = (IFrameAPI) => {
-  //     let element = document.getElementById('embed-iframe');
-  //     let options = {
-  //       width: '90%',
-  //       height: '300',
-  //         uri: 'spotify:episode:2fI66ALYulJfKV56tEN86E'
-  //       };
-  //     let callback = (EmbedController) => {};
-  //     IFrameAPI.createController(element, options, callback);
-  //   };
-  //  }
-  // }
+  const showSpott = () => {
+    if (window.innerWidth < 430) {
+      window.onSpotifyIframeApiReady = (IFrameAPI) => {
+        let element = document.getElementById('embed-iframe');
+        let options = {
+          width: '51%',
+          height: '300',
+            uri: 'spotify:episode:2fI66ALYulJfKV56tEN86E'
+          };
+        let callback = (EmbedController) => {};
+        IFrameAPI.createController(element, options, callback);
+      };
+   }
+   else {
+    window.onSpotifyIframeApiReady = (IFrameAPI) => {
+      let element = document.getElementById('embed-iframe');
+      let options = {
+        width: '90%',
+        height: '300',
+          uri: 'spotify:episode:2fI66ALYulJfKV56tEN86E'
+        };
+      let callback = (EmbedController) => {};
+      IFrameAPI.createController(element, options, callback);
+    };
+   }
+  }
 
-  // showSpott();
+  showSpott();
 
   // const changeLink = () => {
   //   if (window.innerWidth < 430) {
@@ -45,16 +45,16 @@ function Home() {
 
   // changeLink();
 
-  window.onSpotifyIframeApiReady = (IFrameAPI) => {
-    let element = document.getElementById("embed-iframe");
-    let options = {
-      width: "90%",
-      height: "300",
-      uri: "spotify:episode:2fI66ALYulJfKV56tEN86E",
-    };
-    let callback = (EmbedController) => {};
-    IFrameAPI.createController(element, options, callback);
-  };
+  // window.onSpotifyIframeApiReady = (IFrameAPI) => {
+  //   let element = document.getElementById("embed-iframe");
+  //   let options = {
+  //     width: "90%",
+  //     height: "300",
+  //     uri: "spotify:episode:2fI66ALYulJfKV56tEN86E",
+  //   };
+  //   let callback = (EmbedController) => {};
+  //   IFrameAPI.createController(element, options, callback);
+  // };
 
   return (
     <>
