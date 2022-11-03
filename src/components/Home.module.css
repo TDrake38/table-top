@@ -8,10 +8,10 @@
 .newsPaper {
     display: flex;
     flex-wrap: wrap;
-    width: 60rem;
+    height: auto;
     flex-direction: row;
     background-image: url('https://i.pinimg.com/564x/90/8b/34/908b34367bd87750adc62649590804b4.jpg');
-    background-size: cover;
+    background-size: auto;
     justify-content: space-around;
     border-radius: .5rem;
     margin-bottom: .5rem;
@@ -23,7 +23,8 @@
 
 .blurb {
     margin-top: 2rem;
-    width: 432px;
+    width: 40rem;
+    font-size: x-large;
     font-family: "Times New Roman";
 }
 
@@ -41,6 +42,7 @@
     font-weight: bold;
     justify-content: center;
     text-decoration: underline;
+    font-size: xx-large;
 }
 
 .updateTitle {
@@ -50,24 +52,6 @@
     text-align: center;
 }
 
-/* a:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-  }
-
-a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
-  
-a:hover {
-    color: rgb(120, 24, 24);
-    background-color: transparent;
-    text-decoration: underline;
-} */
-
 .h4 {
     margin-top: .5rem;
     margin-bottom: .5rem;
@@ -76,7 +60,8 @@ a:hover {
 .twitBKG {
     display: flex;
     margin-top: 2rem;
-    width: 25rem;
+    margin-bottom: 2rem;
+    width: 35rem;
     object-fit: scale-down;
     border-color: black;
     border: .8rem;
@@ -89,19 +74,32 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 412px) {
 
     .para {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
     }
 
+    .h3{
+        font-size: large;
+    }
+
+    .blurb{
+        font-size: medium;
+    }
+
     .twitBKG {
         margin-bottom: 1rem;
+        width: 20rem;
     }
 
     .secondBlurb {
-        width: 432px;
+        width: 410px;
+    }
+
+    .newsPaper{
+        width: 100vw;
     }
 
     /* .tweet {
