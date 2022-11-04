@@ -51,7 +51,7 @@ function Home() {
               className={styles.twitBKG}
             />
           </div>
-          <div id="embed-iframe"></div>
+          <div id="embed-iframe" className={styles.spotty}></div>
           <div className={styles.secondBlurb}>
               <h3 className={styles.updateTitle}>
               Adventures in Annam: A monthly DnD game where players live and quest in a land dominated by giants and dragons.
