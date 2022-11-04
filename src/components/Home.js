@@ -37,7 +37,7 @@ function Home() {
         <div className={styles.newsPaper}>
           <div id="blurp" className={styles.blurb}>
             <h3 className={styles.h3}>Welcome to all things tabletop!</h3>
-            <p className={styles.para}>
+            <p className={styles.paraOne}>
               My passion for DnD has driven me to begin this journey. Here you
               can keep up to date with the latest tweets and spotify episodes.
               You will also be able to find all of my social media links here in

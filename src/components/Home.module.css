@@ -73,13 +73,17 @@
     font-weight: bold;
 }
 
+.paraOne {
+    font-weight: bold;
+}
+
 
 @media only screen and (max-width: 600px) {
 
-    /* .para {
+    .paraOne {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
-    } */
+    }
 
     .h3{
         font-size: large;
