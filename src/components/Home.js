@@ -7,7 +7,6 @@ import fb32 from "../images/facebook-3-32.png";
 import TweetFeed from "./Twitter";
 
 function Home() {
-
   window.onSpotifyIframeApiReady = (IFrameAPI) => {
     let element = document.getElementById("embed-iframe");
     let options = {
@@ -53,9 +52,10 @@ function Home() {
           </div>
           <div id="embed-iframe" className={styles.spotty}></div>
           <div className={styles.secondBlurb}>
-              <h3 className={styles.updateTitle}>
-              Adventures in Annam: A monthly DnD game where players live and quest in a land dominated by giants and dragons.
-              </h3>
+            <h3 className={styles.updateTitle}>
+              Adventures in Annam: A monthly DnD game where players live and
+              quest in a land dominated by giants and dragons.
+            </h3>
             <p className={styles.para}>
               <h4>Three lifelines intersect in the debut session.</h4>
               "A Red Wyrmling was following a herd of Mammoths when it caught
@@ -90,59 +90,66 @@ function Home() {
               came a large gray skinned man, hurtling through the air, that
               collided with the flying dragon and somehow managed to cling to
               the beast!!
-              <br />
-              The dragon thrashed and flexed yet could not throw off the
-              restraining grapple of the goliath sized man. Unable to move
-              properly, the beast fell to the ground taking its grappler with
-              it. Some yards away, Glorak and Heruj witness all this as well,
-              looked at each other and sprang into action. Glorak rushing
-              forward, hurled javelins, while Heruj flung arrows at the downed
-              dragon. They had been sent to stalk, locate and report back, but
-              glory would be theirs if they could guarantee the safety of the
-              tribe.
-              <br />
-              As the dust settled from their impact with the ground, the
-              stranger quickly called upon divine magic and commanded the red
-              scaled serpent to sleep. The creature tried to resist the magic
-              but could not help itself. Before T'Zorem' eyes lay a grounded,
-              sleeping dragon and the minotaur leapt into action. T'Zorem
-              charged the prone creature and slammed it with horn and fist, just
-              barely able to breach the dragons hide and inflict wounds upon it.
-              At the same time, javelins landed wide and missed their target
-              while arrows found home, hitting vulnerable spots on the dragon's
-              body. It stirred under the flurry of attacks its aggressors had
-              laid upon it and no longer under the stranger's magic, it rose up
-              from the ground and spewed forth a wide arc of flame.
-              <br />
-              Glorak had just reached the melee as the flames engulfed him, the
-              minotaur and the goliath. The gray skinned man was the only one
-              left standing after the breath attack as more arrows zipped past,
-              glancing off the beasts' scales.
-              <br />
-              With a thrust of its wings the wyrmling took to the air once again
-              and flew around to position itself for one more blast of fire. the
-              stranger healed himself and yelled back to the stone giant who was
-              approaching cautiously. The goliath called for aid and the stone
-              giant obliged. A mighty rock flew through the air and slammed the
-              remaining life from the dragon's body. The creature fell back to
-              the earth, dead.
-              <br />
-              "These little ones will make excellent servants" the stone giant
-              exclaimed as it approached. Glorak roused to his senses and looked
-              to Heruj who was by his side, Heruj knew his tribemate would not
-              be taken without a fight. The stranger noticed this determination
-              as well and spoke, "I cannot guarantee your life, but come with us
-              peacefully and the giants will treat you fairly."
-              <br />
-              Heruj urged Glorak to comply, "At least until you are healed." he
-              whispered The stone giant picked up the unconscious minotaur that
-              had been stabilized by the goliath. Urging the little folk
-              forward, the Giant proceeded to escort them towards the Storm
-              Isles. Night would come however so the group stopped and made camp
-              to rest. The next four days of travel would determine their fate.
+              <details>
+                <summary>Read more.</summary>
+                <p>
+                  The dragon thrashed and flexed yet could not throw off the
+                  restraining grapple of the goliath sized man. Unable to move
+                  properly, the beast fell to the ground taking its grappler
+                  with it. Some yards away, Glorak and Heruj witness all this as
+                  well, looked at each other and sprang into action. Glorak
+                  rushing forward, hurled javelins, while Heruj flung arrows at
+                  the downed dragon. They had been sent to stalk, locate and
+                  report back, but glory would be theirs if they could guarantee
+                  the safety of the tribe.
+                  <br />
+                  As the dust settled from their impact with the ground, the
+                  stranger quickly called upon divine magic and commanded the
+                  red scaled serpent to sleep. The creature tried to resist the
+                  magic but could not help itself. Before T'Zorem' eyes lay a
+                  grounded, sleeping dragon and the minotaur leapt into action.
+                  T'Zorem charged the prone creature and slammed it with horn
+                  and fist, just barely able to breach the dragons hide and
+                  inflict wounds upon it. At the same time, javelins landed wide
+                  and missed their target while arrows found home, hitting
+                  vulnerable spots on the dragon's body. It stirred under the
+                  flurry of attacks its aggressors had laid upon it and no
+                  longer under the stranger's magic, it rose up from the ground
+                  and spewed forth a wide arc of flame.
+                  <br />
+                  Glorak had just reached the melee as the flames engulfed him,
+                  the minotaur and the goliath. The gray skinned man was the
+                  only one left standing after the breath attack as more arrows
+                  zipped past, glancing off the beasts' scales.
+                  <br />
+                  With a thrust of its wings the wyrmling took to the air once
+                  again and flew around to position itself for one more blast of
+                  fire. the stranger healed himself and yelled back to the stone
+                  giant who was approaching cautiously. The goliath called for
+                  aid and the stone giant obliged. A mighty rock flew through
+                  the air and slammed the remaining life from the dragon's body.
+                  The creature fell back to the earth, dead.
+                  <br />
+                  "These little ones will make excellent servants" the stone
+                  giant exclaimed as it approached. Glorak roused to his senses
+                  and looked to Heruj who was by his side, Heruj knew his
+                  tribemate would not be taken without a fight. The stranger
+                  noticed this determination as well and spoke, "I cannot
+                  guarantee your life, but come with us peacefully and the
+                  giants will treat you fairly."
+                  <br />
+                  Heruj urged Glorak to comply, "At least until you are healed."
+                  he whispered The stone giant picked up the unconscious
+                  minotaur that had been stabilized by the goliath. Urging the
+                  little folk forward, the Giant proceeded to escort them
+                  towards the Storm Isles. Night would come however so the group
+                  stopped and made camp to rest. The next four days of travel
+                  would determine their fate.
+                </p>
+              </details>
             </p>
           </div>
-          <TweetFeed/>
+          <TweetFeed />
         </div>
       </div>
     </>
