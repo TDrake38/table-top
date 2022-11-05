@@ -42,7 +42,6 @@
     font-weight: bold;
     justify-content: center;
     text-decoration: underline;
-    font-size: xx-large;
 }
 
 .updateTitle {
@@ -84,11 +83,7 @@
         margin-left: 1.5rem;
         margin-right: 1.5rem;
     }
-
-    .h3{
-        font-size: large;
-    }
-
+    
     .blurb{
         font-size: medium;
     }

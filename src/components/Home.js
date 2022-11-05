@@ -143,7 +143,6 @@ function Home() {
             </p>
           </div>
           <TweetFeed/>
-          {/* <h4 className={styles.h4}>Thank you for visiting!</h4> */}
         </div>
       </div>
     </>
