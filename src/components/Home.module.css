@@ -70,6 +70,10 @@
 
 .para {
     font-weight: bold;
+    border-color: black;
+    border: .2rem;
+    border-style: solid;
+    border-radius: .5rem;
 }
 
 .paraOne {
