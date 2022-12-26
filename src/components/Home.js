@@ -87,11 +87,11 @@ function Home() {
                   throw.
                 </p>
                 <p>
-                  T'Zorem dove for cover just before the area was awash with
+                  T’zerom dove for cover just before the area was awash with
                   dragon breath. Singed yet surviving, the minotaur' Zen
                   Training kept him aware of his surroundings. He had of course
                   been surviving on his own for as long as he could remember.
-                  Under attack now, from a dragon no less, T'Zorem took stock of
+                  Under attack now, from a dragon no less, T’zerom took stock of
                   his situation as the wyrmling circled around for another blast
                   of flame. At that moment he witnessed the most peculiar
                   happening. From off in the hills came a large gray skinned
@@ -113,9 +113,9 @@ function Home() {
                   As the dust settled from their impact with the ground, the
                   stranger quickly called upon divine magic and commanded the
                   red scaled serpent to sleep. The creature tried to resist the
-                  magic but could not help itself. Before T'Zorem' eyes lay a
+                  magic but could not help itself. Before T’zerom eyes lay a
                   grounded, sleeping dragon and the minotaur leapt into action.
-                  T'Zorem charged the prone creature and slammed it with horn
+                  T’zerom charged the prone creature and slammed it with horn
                   and fist, just barely able to breach the dragons hide and
                   inflict wounds upon it. At the same time, javelins landed wide
                   and missed their target while arrows found home, hitting
@@ -246,6 +246,99 @@ function Home() {
                   also took some of the butchered meat to eat, saving the small
                   game meat for another meal. After their short meal, the troupe
                   began the journey again, spurred on by the Stone Giant.
+                </p>
+              </details>
+              <details>
+                <summary>Session #3</summary>
+                <p>
+                  As night crept in, and the stars shone down on the traveling
+                  companions, they hunkered down after their uneventful day of
+                  travel. The goliath sat quietly in ponderance and awe at the
+                  stars of that evening, the goliath spoke of his past and a
+                  thought that had been weighing on his mind. After the
+                  goliath's long winded rant, a silence fell over the group and
+                  a foul fog filled the air, sitting low to the ground nearly
+                  enveloping everyone. Almost as quickly as the fog appeared it
+                  dissipated… There standing before the goliath was a tiny
+                  creature with wings and coloring of blue, white and silver.
+                  The goliath kneeled down to the height of the little being
+                  with a hand stretched out as a gesture of peace and ease, the
+                  small being quickly reacted, drawing its dagger and fending
+                  off the advance. The party members looked on attempting to see
+                  what had caught the goliath's attention. A quick statement of
+                  acceptance and pleasantries was extended from the goliath to
+                  the small being when yet another mysterious fog rolled in
+                  around them, the small beings eyes darted around swiftfully
+                  before looking into the goliath's eyes exclaiming one simple
+                  word…. “Spectors?”
+                </p>
+                <p>
+                  The fog vanished and the group was surrounded by glowing blue
+                  spirits with a look of evil to their presence. Acting quickly
+                  everyone grouped up to take decisive action. Being so far from
+                  the remainder of the members the goliath looked to the small
+                  being exclaiming “You must get to the others, our safety is
+                  better as one unit trust me” the goliath reached forward
+                  grabbing the small being and threw it towards the others.
+                  Seeing everyone grouped and prepared for battle, the minotaur
+                  T’zerom without hesitation slammed his fists repeatedly into a
+                  spector spraying blue gray ooze with every offensive strike.
+                  Heruj, keenly spotted his opportunity to attack, enchanting an
+                  arrow, took aim and watched it land a devastating magical blow
+                  to a large group of the spectors. Glorak seeing this as a true
+                  show of his strength with no moral obligations to hold him
+                  back, raised his greataxe and perhaps too hastefully, swung at
+                  the spectral enemies with the rage of all his fallen ancestors
+                  nearly landing a destructive attack. Without pause, the
+                  spectors lashed out at Glorak, his face drooped and his soul
+                  ached as he felt their ghostly fingers pass through his entire
+                  being. The spectors quickly gained on the goliath, swinging
+                  feverously, but their attacks were deflected by the goliath's
+                  quick reaction. Thinking quickly the goliath summoned the
+                  powers of a celestial storm, slamming a wave of pure cosmic
+                  energy to the ground encasing multiple spectors in its rays
+                  and pushing them back giving room for a swift getaway. Neuran
+                  took up arms standing with the little folk, slamming his giant
+                  stalactite mace down upon a spector repeatedly crushing the
+                  enemy until only a pile of blue gel-like substance remained
+                  where the spector had once floated. With a show of true guile
+                  the small being flew past one of the spectors dismantling its
+                  self worth, and strength with the most utterly hurtful
+                  statement it had likely heard in centuries “You are stupid”
+                  grabbing at its ears and clawing at its eyes the spector was
+                  unable to recover from this furious insult!
+                </p>
+                <p>
+                  The group fought with pure courage, honor and vitality as the
+                  spectors were falling one after another, victory was seeming
+                  near. As an unexpected distraction the small being
+                  materialized a fantastic replica of the goliath confusing the
+                  final 2 spectors. Provided with an opportunity to attack, the
+                  remaining allies landed blow after blow on the spectors
+                  destroying one and visibly injuring the other. The rage of
+                  battle seemed to be slowing, despite the final ghostly
+                  creature still standing. It could be seen in Glorak and
+                  T’zerom’s face that the color had been drained from them, as
+                  if void of life. When the goliath cast a spell of healing on
+                  T’zerom it was instantly apparent it had no effect. Seeing
+                  T’zerom nearing the brink of death, Heruj moved to stand in
+                  front as a physical barrier between T’zerom and the spectors,
+                  showing both noble intent as well as true comradery to protect
+                  and save his fellow party member. With yet another opportunity
+                  to show his skill and power, Heruj commanded his swarm of bees
+                  to force the spector past the group allowing an unguarded
+                  attack on the spector, before the bees pushed the spector away
+                  from the group. The small being, who had been flying over the
+                  battle, hovered above the final standing spector, with a
+                  simple mouthful of saliva spit onto the spector. It screamed
+                  in agony as it melted to the ground, disparaged by her vicious
+                  mockery. The dust settled, ectoplasmic goo dripped from armor
+                  and weapon, pools of spectral essence lay strewn across the
+                  battlefield as Neuran approached the tired and battle worn
+                  little folk. Finally laying his eyes on the small being,
+                  quicked his approach. With his hands clasped together he
+                  looked upon the being with great desire and envy speaking with
+                  great gusto “mmmm fairy!”
                 </p>
               </details>
             </p>
