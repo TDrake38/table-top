@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./Home.module.css";
 import twitBackground from "../images/twitter-background.jpg";
 import spotify32 from "../images/spotify-32.png";
@@ -23,13 +23,13 @@ function Home() {
       <div className={styles.homie}>
         <div className={styles.header}>
           <a href="https://open.spotify.com/show/4ggk2LZstPiXlDI870CMXG?si=8459761b71ea4dac">
-            <img src={spotify32} />
+            <img src={spotify32} alt=""spotify image/>
           </a>
           <a href="https://twitter.com/TTR110983?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3ATTR110983%7Ctwcon%5Es2">
-            <img src={twitter32} />
+            <img src={twitter32} alt="twitter image"/>
           </a>
           <a href="https://www.facebook.com/TTReporter">
-            <img src={fb32} />
+            <img src={fb32} alt="facebook image" />
           </a>
           <h1 className={styles.title}>The Table Top Reporter</h1>
         </div>
@@ -339,6 +339,111 @@ function Home() {
                   quicked his approach. With his hands clasped together he
                   looked upon the being with great desire and envy speaking with
                   great gusto “mmmm fairy!”
+                </p>
+              </details>
+              <details>
+                <summary>Session #4</summary>
+                <p>
+                  Neuran approached the fay slowly, with each step forward he
+                  began to list the fairies uses; “Fire giants could use your
+                  wings for crafting, Ettins could use your bones, then there
+                  are the hill giants… they say eating a fairy has a different
+                  taste with each bite.” Glorak being ever honorable despite
+                  knowing nothing of the fairy steps into Neuran’s path to
+                  interrupt his forward movement, “You won't be giving this
+                  fairy to them.” The loxodon states in a firm tone. Neuran
+                  responded with a deep chuckle “Oh no I would not do such a
+                  thing… I would keep it and cage it for my entertainment,
+                  Fairies make excellent muses when treated properly.”
+                </p>
+                <p>
+                  Seeing Glorak’s obvious intent of stopping him, Neuran halted
+                  himself. Glorak turned to the fairy and asked for a name, the
+                  fairy very nonchalantly brushed his request off however.
+                  Glorak was set on learning her name and reminded the fairy
+                  that he just stopped Nthe giant from eating her, suggesting
+                  that this deed was worthy of a name. After a short pause as
+                  the fairy pondered, she responded with a “name”, Muriphyndore.
+                  Neuran quickly grew impatient with this wasted time and
+                  snatched up Muriphyndore and quickly stuffed her into his
+                  sack. As she is being tossed into the bag, she looks intently
+                  at the Goliath locking eyes for but a moment. Despite having
+                  the capability to escape with ease Muriphyndore instead kicks
+                  her feet up getting comfy in the spacious sack and allows
+                  Neuran to carry her so she does not need to expend any energy
+                  on her travels. While relaxing, she also rooted through
+                  Neuran’s belongings where she found a mystical ring that when
+                  she put it on magically sized to her finger and filled her
+                  with a sense of great attachment as if she had become attuned
+                  to it.
+                </p>
+                <p>
+                  With the party seeing no urgent need to help the fay escape,
+                  everyone settled for the evening after moving a short way from
+                  the mound. A new fire was started and the group gathered
+                  around to sleep away the memory of the specters. Glorak slowly
+                  shimmied closer to Neuran to ask, “Does she really need to be
+                  stuffed in the sack?” Neuran did not even see enough value in
+                  the question to warrant a response. As Glorak moved away
+                  again, T’zerom spoke up asking if Neurans opinion about
+                  Minotaurs had changed and what he should expect to happen at
+                  the storm isles. Neuran’s response which stated that they were
+                  all slaves and would be offered up as such struck a nerve in
+                  the goliath. Quickly and sharply the goliath questioned
+                  Neuran; “And me Neuran, do you see me as the same. You have
+                  said numerous times that these beings have proven more worthy
+                  and you yourself has stated you will write about them making
+                  them the first of their race to be written about in a higher
+                  view” Neuran paused for a moment to think of a response,
+                  before he was able to the goliath followed with; “If you think
+                  all they are worth is slaves and food despite their actions
+                  then let them go, I will suffer the consequences for this when
+                  I am brought before the Storm Giants.” Seeing the tension
+                  building Heruj spoke up with a sly remark “I really hope they
+                  have couples counseling in the storm isles'' To which all the
+                  members laughed slightly, forcing Neuran and the Goliath to
+                  cut their conversation short
+                </p>
+                <p>
+                  As the sun rose the next day it was clear they were extremely
+                  close to the storm isles as two of the five isles could be
+                  seen floating to the north, surrounded by storm clouds,
+                  lightning and waterfalls of rain falling constantly. Neuran
+                  was not himself this morning, if any of the others had to
+                  guess, they would say the previous night’s conversations still
+                  weighed heavily on the pensive giant. Despite this, Neuran
+                  ushered the group forward towards the storm isles. The group
+                  began to descend into a gully as the rolling hills began to
+                  flatten out. They were just a few hours from their destination
+                  when from the top of a hill Heruj spotted 2 strange cat like
+                  beasts with 6 legs flanking the group. Before the ranger could
+                  call out in warning, another dashed out from behind some cover
+                  and clawed Neuran’s back and jostled the sack from his
+                  shoulder. A battle ensued with the party members grouping
+                  together to attempt to keep the beasts at a distance while at
+                  the same time restraining magic was used to hold them in place
+                  to give the group the opportunity to target a single creature
+                  at a time. Hearing the clashing of weapons, and the booming of
+                  spells Muriphyndore decided to exit the sack and participate
+                  in the fight, but not before tossing some of the salt that was
+                  found in Neuran’s sack into his open wounds. They all fought
+                  as a unit, mitigating many opportunities for them to be
+                  injured by these beasts who seemed to be protected by a
+                  strange glamour that hid their true location. It became
+                  apparent that the beasts seemed to be targeting the Goliath
+                  directly, as they made attempts to grapple and drag the
+                  stranger from another world off unsuccessfully. As the battle
+                  raged on the beasts fell one after another, until there were
+                  only two left, one of which was extremely injured. Without
+                  warning the beasts broke off from their attack and once again
+                  swiftly disappeared into the tall grasses. After the dust had
+                  settled, and the group had caught their breaths, Neuran was
+                  the first to suggest they carry on. Concerns about the
+                  creatures returning were brought up and that they should be
+                  hunted down but the giant would have none of it. They were
+                  very close to the storm isle now and Neuran knew the Giants
+                  who ruled there would not look kindly should they be kept
+                  waiting for long.
                 </p>
               </details>
             </p>
